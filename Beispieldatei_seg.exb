@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<basic-transcription>
+<head>
+<meta-information><project-name></project-name><transcription-name></transcription-name><referenced-file url=""/><ud-meta-information></ud-meta-information><comment></comment><transcription-convention></transcription-convention></meta-information><speakertable><speaker id="SPK0">
+<abbreviation>X</abbreviation>
+<sex value="m"/>
+<languages-used></languages-used>
+<l1></l1>
+<l2></l2>
+<ud-speaker-information>
+</ud-speaker-information>
+<comment></comment>
+</speaker>
+</speakertable></head>
+<basic-body>
+<common-timeline>
+<tli id="T0"/>
+<tli id="T0.TIE0.1"/>
+<tli id="T0.TIE0.2"/>
+<tli id="T0.TIE0.3"/>
+<tli id="T0.TIE0.4"/>
+<tli id="T0.TIE0.5"/>
+<tli id="T0.TIE0.6"/>
+<tli id="T0.TIE0.7"/>
+<tli id="T3"/>
+<tli id="T1"/>
+<tli id="T1.TIE0.1"/>
+<tli id="T1.TIE0.2"/>
+<tli id="T1.TIE0.3"/>
+<tli id="T1.TIE0.4"/>
+<tli id="T1.TIE0.5"/>
+<tli id="T1.TIE0.6"/>
+<tli id="T1.TIE0.7"/>
+<tli id="T1.TIE0.8"/>
+<tli id="T1.TIE0.9"/>
+<tli id="T1.TIE0.10"/>
+<tli id="T1.TIE0.11"/>
+<tli id="T1.TIE0.12"/>
+<tli id="T1.TIE0.13"/>
+<tli id="T1.TIE0.14"/>
+<tli id="T1.TIE0.15"/>
+<tli id="T1.TIE0.16"/>
+<tli id="T1.TIE0.17"/>
+<tli id="T1.TIE0.18"/>
+<tli id="T1.TIE0.19"/>
+<tli id="T2"/>
+</common-timeline>
+<tier id="TIE0" speaker="SPK0" category="v" type="a" display-name="X [v]"><event start="T0" end="T1">Das ist ein Beispielsatz, weil ich einen Beipsielsatz brauche.</event>
+<event start="T1" end="T2">Aber dabei darf nicht vergessen werden, dass das hier nur ein Test ist und andere Dinge aufgrund dessen unbeachtet bleiben.</event>
+</tier><tier id="TIE0_TOK" speaker="SPK0" category="tok_part" type="t" display-name="X [tok_part]"><event start="T0" end="T0.TIE0.1">Das</event>
+<event start="T0.TIE0.1" end="T0.TIE0.2">ist</event>
+<event start="T0.TIE0.2" end="T0.TIE0.3">ein</event>
+<event start="T0.TIE0.3" end="T0.TIE0.4">Beispielsatz</event>
+<event start="T0.TIE0.4" end="T0.TIE0.5">weil</event>
+<event start="T0.TIE0.5" end="T0.TIE0.6">ich</event>
+<event start="T0.TIE0.6" end="T0.TIE0.7">einen</event>
+<event start="T0.TIE0.7" end="T3">Beipsielsatz </event>
+<event start="T3" end="T1">brauche.</event>
+<event start="T1" end="T1.TIE0.1">Aber</event>
+<event start="T1.TIE0.1" end="T1.TIE0.2">dabei</event>
+<event start="T1.TIE0.2" end="T1.TIE0.3">darf</event>
+<event start="T1.TIE0.3" end="T1.TIE0.4">nicht</event>
+<event start="T1.TIE0.4" end="T1.TIE0.5">vergessen</event>
+<event start="T1.TIE0.5" end="T1.TIE0.6">werden</event>
+<event start="T1.TIE0.6" end="T1.TIE0.7">dass</event>
+<event start="T1.TIE0.7" end="T1.TIE0.8">das</event>
+<event start="T1.TIE0.8" end="T1.TIE0.9">hier</event>
+<event start="T1.TIE0.9" end="T1.TIE0.10">nur</event>
+<event start="T1.TIE0.10" end="T1.TIE0.11">ein</event>
+<event start="T1.TIE0.11" end="T1.TIE0.12">Test</event>
+<event start="T1.TIE0.12" end="T1.TIE0.13">ist</event>
+<event start="T1.TIE0.13" end="T1.TIE0.14">und</event>
+<event start="T1.TIE0.14" end="T1.TIE0.15">andere</event>
+<event start="T1.TIE0.15" end="T1.TIE0.16">Dinge</event>
+<event start="T1.TIE0.16" end="T1.TIE0.17">aufgrund</event>
+<event start="T1.TIE0.17" end="T1.TIE0.18">dessen</event>
+<event start="T1.TIE0.18" end="T1.TIE0.19">unbeachtet</event>
+<event start="T1.TIE0.19" end="T2">bleiben</event>
+</tier><tier id="TIE1" speaker="SPK0" category="unit" type="a" display-name="X [unit]"><event start="T0" end="T1">DEC </event>
+<event start="T1" end="T2">DEC </event>
+</tier><tier id="TIE2" speaker="SPK0" category="subclause" type="a" display-name="X [subclause]"><event start="T0.TIE0.4" end="T1">SCADV </event>
+<event start="T1.TIE0.6" end="T1.TIE0.13">SCCOMP </event>
+<event start="T1.TIE0.13" end="T2">SCCOMP </event>
+</tier><tier id="TIE4" speaker="SPK0" category="excl" type="a" display-name="X [excl]"></tier><tier id="TIE3" category="com" type="t" display-name="[com]"></tier></basic-body>
+<tierformat-table><timeline-item-format show-every-nth-numbering="1" show-every-nth-absolute="1" absolute-time-format="time" miliseconds-digits="1"/><tier-format tierref="EMPTY"><property name="row-height-calculation">Generous</property><property name="font-face">Plain</property><property name="fixed-row-height">10</property><property name="bg-color">white</property><property name="font-color">white</property><property name="chunk-border-style">solid</property><property name="text-alignment">Left</property><property name="chunk-border-color">#R00G00B00</property><property name="font-size">2</property><property name="chunk-border"></property><property name="font-name">Dialog</property></tier-format><tier-format tierref="TIE0_TOK"><property name="row-height-calculation">Generous</property><property name="font-face">Plain</property><property name="fixed-row-height">10</property><property name="bg-color">white</property><property name="font-color">black</property><property name="chunk-border-style">solid</property><property name="text-alignment">Left</property><property name="chunk-border-color">#R00G00B00</property><property name="font-size">12</property><property name="chunk-border"></property><property name="font-name">Times New Roman</property></tier-format><tier-format tierref="COLUMN-LABEL"><property name="row-height-calculation">Generous</property><property name="font-face">Plain</property><property name="fixed-row-height">10</property><property name="bg-color">lightGray</property><property name="font-color">black</property><property name="chunk-border-style">solid</property><property name="text-alignment">Left</property><property name="chunk-border-color">#R00G00B00</property><property name="font-size">7</property><property name="chunk-border"></property><property name="font-name">Dialog</property></tier-format><tier-format tierref="ROW-LABEL"><property name="row-height-calculation">Generous</property><property name="font-face">Bold</property><property name="fixed-row-height">10</property><property name="bg-color">lightGray</property><property name="font-color">black</property><property name="chunk-border-style">solid</property><property name="text-alignment">Left</property><property name="chunk-border-color">#R00G00B00</property><property name="font-size">10</property><property name="chunk-border"></property><property name="font-name">Dialog</property></tier-format><tier-format tierref="TIE4"><property name="row-height-calculation">Generous</property><property name="font-face">Plain</property><property name="fixed-row-height">10</property><property name="bg-color">white</property><property name="font-color">black</property><property name="chunk-border-style">solid</property><property name="text-alignment">Left</property><property name="chunk-border-color">#R00G00B00</property><property name="font-size">9</property><property name="chunk-border"></property><property name="font-name">Times New Roman</property></tier-format><tier-format tierref="TIE3"><property name="row-height-calculation">Generous</property><property name="font-face">Plain</property><property name="fixed-row-height">10</property><property name="bg-color">white</property><property name="font-color">black</property><property name="chunk-border-style">solid</property><property name="text-alignment">Left</property><property name="chunk-border-color">#R00G00B00</property><property name="font-size">9</property><property name="chunk-border"></property><property name="font-name">Times New Roman</property></tier-format><tier-format tierref="TIE2"><property name="row-height-calculation">Generous</property><property name="font-face">Plain</property><property name="fixed-row-height">10</property><property name="bg-color">white</property><property name="font-color">black</property><property name="chunk-border-style">solid</property><property name="text-alignment">Left</property><property name="chunk-border-color">#R00G00B00</property><property name="font-size">9</property><property name="chunk-border"></property><property name="font-name">Times New Roman</property></tier-format><tier-format tierref="TIE1"><property name="row-height-calculation">Generous</property><property name="font-face">Plain</property><property name="fixed-row-height">10</property><property name="bg-color">white</property><property name="font-color">black</property><property name="chunk-border-style">solid</property><property name="text-alignment">Left</property><property name="chunk-border-color">#R00G00B00</property><property name="font-size">9</property><property name="chunk-border"></property><property name="font-name">Times New Roman</property></tier-format><tier-format tierref="TIE0"><property name="row-height-calculation">Generous</property><property name="font-face">Plain</property><property name="fixed-row-height">10</property><property name="bg-color">white</property><property name="font-color">black</property><property name="chunk-border-style">solid</property><property name="text-alignment">Left</property><property name="chunk-border-color">#R00G00B00</property><property name="font-size">9</property><property name="chunk-border"></property><property name="font-name">Times New Roman</property></tier-format><tier-format tierref="EMPTY-EDITOR"><property name="row-height-calculation">Generous</property><property name="font-face">Plain</property><property name="fixed-row-height">10</property><property name="bg-color">lightGray</property><property name="font-color">white</property><property name="chunk-border-style">solid</property><property name="text-alignment">Left</property><property name="chunk-border-color">#R00G00B00</property><property name="font-size">2</property><property name="chunk-border"></property><property name="font-name">Dialog</property></tier-format><tier-format tierref="SUB-ROW-LABEL"><property name="row-height-calculation">Generous</property><property name="font-face">Plain</property><property name="fixed-row-height">10</property><property name="bg-color">white</property><property name="font-color">black</property><property name="chunk-border-style">solid</property><property name="text-alignment">Right</property><property name="chunk-border-color">#R00G00B00</property><property name="font-size">8</property><property name="chunk-border"></property><property name="font-name">Dialog</property></tier-format></tierformat-table></basic-transcription>

@@ -1,7 +1,11 @@
-lemma,tag,position
-weil,SUBJ,
-aber,ADV,NP ME NF
-dabei,ADV,NP VF NF
-dass,?POST ?SING ?komp,
-und,KON,
-aufgrund,?ADV ?SUBJ,VF MF
+lemma,tag,position,multi_kon,Klasse,Ergänzung,Kommentar
+weil,SUBJ,,,,,
+aber,ADV,NP ME NF,,,,
+dabei,ADV,NP VF NF,,,,
+dass,?POST ?SING ?komp,,,,,
+und,KON,,,,,
+aufgrund,?ADV ?SUBJ,VF MF,,,,
+ADENDUM Sm 694!,,,,,,
+aber,ADV,MF NE NULL,,Adverbkonnektor,nicht_vorfeldfähig,
+abermals,ADV,VF MF,,Adverbkonnektor,nicht_nacherstfähig,
+abgesehen,,VF MF NF NULL,abgesehen davon,Adverbkonnektor,nicht_nacherstfähig,

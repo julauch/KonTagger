@@ -35,6 +35,15 @@ def add_annotation_tier_with_adv_kon_for_file(xml_file_path, csv_file_path, outp
             'type': 'a',
             'display-name': 'PART_CLEAN [adv_kon]'
         })
+
+        # Neue 'tier'-Element für 'mult_kon'
+        mult_kon_tier = ET.Element('tier', {
+            'id': 'mult_kon',
+            'speaker': 'PART_CLEAN',
+            'category': 'mult_kon',
+            'type': 'a',
+            'display-name': 'PART_CLEAN [mult_kon]'
+        })
     
         # Lemma-Tier finden
         lemma_tier = basic_body.find(".//tier[@category='lemma']")
@@ -69,10 +78,20 @@ def add_annotation_tier_with_adv_kon_for_file(xml_file_path, csv_file_path, outp
                             })
                             new_event_adv_kon.text = position
                             adv_kon_tier.append(new_event_adv_kon)
+                            
+                    mult_kon_value = match['mult_kon'].values[0]  # Information aus der Spalte "mult_kon"
+                    if pd.notna(mult_kon_value):  # Nur hinzufügen, wenn nicht leer
+                        new_event_mult_kon = ET.Element('event', {
+                            'start': event.get('start'),
+                            'end': event.get('end')
+                        })
+                        new_event_mult_kon.text = mult_kon_value
+                        mult_kon_tier.append(new_event_mult_kon)
     
         # Neues Tiers zum 'basic-body' hinzufügen
         basic_body.append(annotation_kon_tier)
         basic_body.append(adv_kon_tier)
+        basic_body.append(mult_kon_tier)
 
         # Den Dateinamen für den Output erstellen mit dem Appendix "_kon"
         base_name = os.path.splitext(os.path.basename(xml_file_path))[0]  # Dateiname ohne Extension
